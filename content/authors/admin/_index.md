@@ -10,7 +10,7 @@ first_name: Karl
 last_name: Fiteni
 
 # Pronouns (optional)
-pronouns:''
+pronouns:
 
 # Status emoji
 status:
