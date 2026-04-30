@@ -53,12 +53,14 @@
   }
   @media (max-width: 760px) {
     .container { grid-template-columns: 1fr; gap: 2rem; padding: 2rem 1.25rem 3rem; }
-    .sidebar { text-align: center; }
-    .sidebar .photo { margin: 0 auto 1.25rem; }
   }
 
   /* ---------- Sidebar ---------- */
   .sidebar { position: sticky; top: 3rem; align-self: start; }
+  @media (max-width: 760px) {
+    .sidebar { position: static; top: auto; text-align: center; }
+    .sidebar .photo { margin: 0 auto 1.25rem; }
+  }
   .sidebar .photo {
     width: 200px;
     height: 200px;
